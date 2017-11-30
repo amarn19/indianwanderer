@@ -1,0 +1,81 @@
+/* Styles go here */
+body
+{
+  background-image:url(https://viewbug_com.s3.amazonaws.com/media/images/contests/contest5811_banner.jpg);
+background-size:cover;
+object-fit:cover;
+}
+html
+{
+  height:100%;
+}
+.content span{
+  color:#F5B041;
+    letter-spacing: 8px;
+    font-weight:bold;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+.content
+{
+  text-align:center;
+  padding-top:30%;
+}
+
+.tumbnail{
+  background-color:#FFFFFF;
+  margin:2%;
+  height:190px;
+}
+.fadeInDown 
+{
+  letter-spacing: 8px;
+animation-name: fadeInDown;
+animation-duration:2s;
+}
+@keyframes fadeInDown
+{0% {
+    opacity: 0;
+    /*-webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);*/
+    transform: translateY(-20px);
+}
+
+100% {
+    opacity: 1;
+    /*-webkit-transform: translateY(0);
+    -ms-transform: translateY(0);*/
+    transform: translateY(0);
+}
+}
+
+.fadeInUp
+{
+  color:#ECF0F1  ;
+animation-name: fadeInUp;
+animation-duration:2s;
+}
+@keyframes fadeInUp
+{0% {
+    opacity: 0;
+   /* -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);*/
+    transform: translateY(20px);
+}
+
+100% {
+    opacity: 1;
+  /*  /*-webkit-transform: translateY(0);
+    -ms-transform: translateY(0);*/
+    transform: translateY(0);
+}
+}    
+
+.btn-success:hover {
+    border: 2px solid #777;
+}
+.btn-success
+{
+  background-color:#21618C  ;
+  margin-top: 30px;
+}

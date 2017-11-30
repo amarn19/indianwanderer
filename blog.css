@@ -1,0 +1,7 @@
+.content .container
+{
+  border:10px solid grey;
+  height: -webkit-fill-available;
+  background:#fff;
+  
+}

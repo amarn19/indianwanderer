@@ -1,0 +1,52 @@
+ ._jWq {
+  background: no-repeat center/cover;
+  vertical-align: middle;
+  width: 100%;
+}
+
+._hBn {
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, .85), rgba(0, 0, 0, 0));
+  bottom: 0;
+  height: 120px;
+  position: absolute;
+  width:1140px;
+  margin-right:15px;
+}
+.pl_title
+{
+  margin-top:70px;
+  height:400px;
+}
+.pl_title .container
+{
+  position:relative;
+}
+.pl_title .fa
+{
+    position: absolute;
+    margin-top:16px;
+    margin-left:12px;
+    right: 0;
+    top: 0;
+}
+.pl_nm
+{
+  color:#fff;
+  font-size:34px;
+  position: absolute;
+  margin-left:40px;
+  margin-bottom:16px;
+  bottom:0px;
+  left:0px;
+}
+
+.row .media i
+{
+  padding-right:15px;
+  left:0;
+}
+.row .media .media-body
+{
+  padding-left:60px;
+}
+
