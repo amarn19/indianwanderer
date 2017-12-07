@@ -1,5 +1,5 @@
 .content {
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   background: #eeeeee;
   padding: 20px;
 }
@@ -38,4 +38,9 @@
     opacity: 1;
     transform: translateX(0);
   }
+}
+#myCarousel,#myCarousel img
+{
+  height:700px;
+  /*margin-top:50px;*/
 }
