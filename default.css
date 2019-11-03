@@ -1,0 +1,161 @@
+  html,body{
+    height:100%;
+    width:100%;
+    scroll-behavior: smooth;
+	font-family: 'Montserrat', sans-serif;
+  }
+  .navbar{
+    background-color: #23415C;
+    font-size:1.2em;
+  }
+  .navbar-default .navbar-nav li a{
+    color:#D5D5D5;
+  }
+  .navbar-default .navbar-nav li a:hover,.navbar-default .navbar-nav li a .active{
+    color:#FFFF;
+  }
+  .pl{
+	  padding-left:150px;
+	  padding-right:auto;
+  }
+ 
+  .image{
+    background-image: url("bck.jpg");
+     background-size: cover;
+      background-position: 44.8571% 58.2857%;
+      padding-bottom: 100%; 
+      width: 649px;
+    }
+  .navbar-default .navbar-brand{
+    color:#FFFF;
+  }
+  .bk 
+  {
+    background-color: #eceeef;
+  }
+
+  #home{
+    display: table;
+    height: 100%;
+    position: relative;
+    width:100%;
+    background-size:cover;
+  }
+  .landing-text{
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .title{
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .fadeInDown 
+  {
+    
+  animation-name: fadeInDown;
+  animation-duration:2s;
+  }
+  @keyframes fadeInDown
+  {0% {
+      opacity: 0;
+      transform: translateY(-40px);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+  }
+  .fadeInUp
+{
+
+animation-name: fadeInUp;
+animation-duration:2s;
+}
+@keyframes fadeInUp
+{0% {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+100% {
+    opacity: 1;
+    transform: translateY(0);
+}
+}    
+  .landing-text h1{
+  font-weight:700;
+  }
+  .padding{
+    padding:40px 0;
+  }
+  #img1{
+    width:100%;
+  }
+  #fixed{
+    background: url("background.jpg") no-repeat center center fixed;
+    display:table;
+    height:10%;
+  position:relative;
+  width:100%;
+  background-size: 100%;
+  }
+  footer {
+	  position:absolute;
+    width:100%;
+    background-color: #23415C;
+    padding: auto;
+    color:#FFF;
+
+  }
+
+  .fa{
+    margin:15px;
+	font-size:40px;
+    color:#FFFF;
+  }
+  .fa:hover{color:#FFFF;
+    text-decoration: none;
+  }
+  @media(max-width:768px;) {
+    .landing-text h1{
+      font-size:300%;
+    }
+    .fa{
+      font-size:40px;
+      padding:10px;
+    }
+    .icon{
+      padding-top:5%;
+      max-width: 100px;
+    }
+  }
+
+.main{
+	background:#f1f1f1;
+	height:1200px;
+}
+.header{
+	background-image: url("bkimg.jpg");
+	background-position: center;
+    background-size: cover;
+	height:500px;
+	text-align:center;
+}
+.headertext{
+	position: absolute;
+    top: 35%;
+	left:35%;
+	color:#FFFF;
+}
+.comments-list
+{
+	padding-left:10px;
+	padding-right:20px;
+}
+.btn{
+margin-left:10px;}
+
